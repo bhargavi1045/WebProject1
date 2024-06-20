@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(geography.png);
+    background-size: cover;
+}
+.main{
+    background-color: black ;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 24px;
+}
+.main h1{
+    font-size: 25px;
+    color: #8fd09b ;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+}
+.quiz{
+    padding:20px 0px ;
+}
+.quiz h2{
+    font-size: 18px;
+    color: rgb(151, 171, 207);
+    font-weight: 600;
+}
+.Btn{
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer ;
+    transition: all linear 0.2s;
+}
+.Btn:hover{
+    background-color: rgb(106, 192, 224);
+    color: black;
+}
+#nextBtn{
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    cursor: pointer;
+    display: block;
+    border-radius: 5px;
+}
+.correct{
+    background-color: rgb(118, 225, 144);
+}
+.incorrect{
+    background-color: rgb(209, 102, 102);
+}
