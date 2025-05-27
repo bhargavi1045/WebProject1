@@ -16,7 +16,7 @@
 ## 🛠️ Tech Stack
 
 | Part      | Technology           |
-|-----------|------------------- - |
+|-----------|--------------------- |
 | Structure | HTML                 |
 | Styling   | CSS                  |
 | Logic     | JavaScript (vanilla) |
